@@ -2,7 +2,7 @@
 
 > **Extract, analyze, and operationalize website design systems with an AI agent.**
 
-Dembrandt Agent Skill equips Manus and other compatible agents with a structured workflow for inspecting live websites and turning observed design-system evidence into useful implementation artifacts. It covers colors, typography, spacing, borders, radii, shadows, motion, components, responsive behavior, brand identity, accessibility, design tokens, and visual drift.
+Dembrandt Skill equips agents with a structured workflow for inspecting live websites and turning observed design-system evidence into useful implementation artifacts. It covers colors, typography, spacing, borders, radii, shadows, motion, components, responsive behavior, brand identity, accessibility, design tokens, and visual drift.
 
 The skill is designed to work with the [Dembrandt CLI and MCP server](https://github.com/dembrandt/dembrandt). It teaches an agent when to use live extraction, how to select the appropriate browser and viewport context, how to interpret confidence and limitations, and how to export results for design and development workflows.
 
@@ -31,7 +31,7 @@ The skill helps an agent:
 
 ## Installation
 
-Install this skill through the Manus skill interface by adding the generated skill package or attaching the included `SKILL.md` file.
+Install this skill through your agent by adding the generated skill package or attaching the included `SKILL.md` file.
 
 The skill itself provides guidance for using Dembrandt. To run Dembrandt locally through the CLI, install the package and its matching browser binary:
 
